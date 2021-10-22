@@ -52,6 +52,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #000;
   color: #999;
+  overflow: scroll;
 }
 
 .center {
@@ -163,3 +164,16 @@ p {
 .btn-rounded {
   border-radius: 5px;
 }
+/* 
+@media (max-width: 785px) {
+   {
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+  }
+}
+
+@media (max-height: 900px) {
+   {
+    margin-top: 3rem;
+  }
+} */
